@@ -1,0 +1,7 @@
+<!ELEMENT parent (lolo*)>
+<!ELEMENT lolo (id,koko)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT koko (#PCDATA)>
+
+<!ATTLIST id type CDATA "int">
+<!ATTLIST koko type CDATA "date">
